@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text, .button  {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.text {
+    font-size: 40px;
+    color: rgb(51, 84, 122);
+}
+
+.clicker {
+    background-color: rgb(51, 84, 122);
+    color: white;
+    border: none;
+    font-size: 100px;
+    padding: 0;
+    line-height: 70px;
+    /* width: 69px;
+    height: 69px; */
+    cursor: pointer;
+    overflow: hidden;
+    
+}
